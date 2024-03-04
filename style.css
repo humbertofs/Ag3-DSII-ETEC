@@ -1,0 +1,56 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 2em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+h4{
+  font-size: 1em;
+}
+
+.w3-container{
+  padding: 1em;
+  width: 100%;
+  border: 1px #fff;
+  border-radius: 10px;
+}
+
+.bg{
+  margin-top: 3em;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #009688;
+  border-radius: 10px;
+}
+
+.w3-input{
+  background: none;
+  border-bottom: 1px solid #ccc;
+  margin-top: 1em;
+}
+
+button{
+  margin-top: 1em;
+}
+
+footer{
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.compraConfirmada {
+  display: none;
+
+}
